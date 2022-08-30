@@ -9,7 +9,7 @@
 }
 
 main.container {
-  background-color: rgb(2, 2, 53);
+  background-color: rgb(13, 19, 35);
   width: 80rem;
   height: 100%;
   margin: 1rem auto;
@@ -23,4 +23,101 @@ main.container {
 
 .name1 {
   grid-area: 1/1 / span 2 / span 1;
+  /* border: 2px solid red; */
+  background-color: rgb(29, 32, 75);
+  border-radius: 25px;
+}
+
+.top1 {
+  background-color: rgb(87, 70, 234);
+  height: 22rem;
+  border-radius: 25px;
+}
+
+.top1 img {
+  width: 4rem;
+  margin: 1.2rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.top1 h1 {
+  font-size: 0.7rem;
+  padding-left: 1.2rem;
+}
+.top1 span {
+  font-size: 2rem;
+  /* margin-top: 3rem; */
+}
+
+.bottom1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 9.3rem;
+  padding-left: 1.2rem;
+}
+
+.bottom1 a {
+  text-decoration: none;
+  padding: 0.5rem;
+}
+.bottom1 a:hover {
+  color: rgb(87, 70, 234);
+}
+
+.name2 {
+  background-image: url(./images/icon-work.svg);
+  background-color: coral;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.name3 {
+  background-image: url(./images/icon-play.svg);
+  background-color: aqua;
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+.name4 {
+  background-image: url(./images/icon-study.svg);
+  background-color: hotpink;
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+.name5 {
+  background-image: url(./images/icon-exercise.svg);
+  background-color: lightgreen;
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+.name6 {
+  background-image: url(./images/icon-social.svg);
+  background-color: blueviolet;
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+.name7 {
+  background-image: url(./images/icon-self-care.svg);
+  background-color: rgba(255, 238, 2, 0.781);
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+.box {
+  border-radius: 20px;
+  position: relative;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 12rem;
+  border-radius: 15px;
+  /* border: 2px solid red; */
+  background-color: rgb(29, 32, 75);
 }
