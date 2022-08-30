@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Space+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+
+main.container {
+  background-color: rgb(2, 2, 53);
+  width: 80rem;
+  height: 100%;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 15rem 15rem 15rem 15rem;
+  grid-template-rows: 15rem 15rem;
+  padding: 10rem;
+  border-radius: 30px;
+  gap: 2rem;
+}
+
+.name1 {
+  grid-area: 1/1 / span 2 / span 1;
+}
